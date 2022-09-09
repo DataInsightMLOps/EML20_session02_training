@@ -100,8 +100,12 @@ class LitResnet(LightningModule):
 
         return {"loss": loss, "preds": preds, "targets": targets}
 
+
     def test_epoch_end(self, outputs: List[Any]):
         self.test_acc.reset()
+
+    def predict_step(self, batch, batch_idx: int , dataloader_idx: int = None):
+        return self(batch)
 
     def configure_optimizers(self):
         optimizer = torch.optim.SGD(
