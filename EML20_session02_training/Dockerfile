@@ -10,7 +10,8 @@ ADD eml20_session02_training  /opt/src/eml20_session02_training
 
 ADD config /opt/src/config
 
-COPY entrypoint.sh entrypoint.sh
+ADD entrypoint.sh entrypoint.sh
 
+ADD pyproject.toml pyproject.toml 
 
 ENTRYPOINT ["sh","entrypoint.sh"]
