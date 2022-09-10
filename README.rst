@@ -29,7 +29,7 @@ Folder Structure
   │        ├── rich_utils.py - class for train logging
   │        ├── utils.py - class for Tensorboard visualization support
   │
-  ├── logging.yml - logging configuration
+  ├── entrypoint.sh - entry point script with train and eval script execution for docker container
   │
   ├── data/ - directory for storing input data
   │
