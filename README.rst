@@ -15,8 +15,6 @@ Folder Structure
   │
   ├── eml20_session02_training/
   │    │
-  │    ├── cli.py - command line interface
-  │    ├── main.py - main script to start train/test
   │    │
   │    ├── data_loader/ - anything about data loading goes here
   │    │   └── cfar_datamodule.py
