@@ -1,7 +1,7 @@
 ========================
 EML20_session02_training
 ========================
-PyTorch deep learning project made easy.
+PyTorch lightening with hydra, cookies cutter template
 
 .. contents:: Table of Contents
    :depth: 2
